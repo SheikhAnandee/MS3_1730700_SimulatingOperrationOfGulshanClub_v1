@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="PresidentProfifleVbox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="557.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ms3_1730700_simulatingoperrationofgulshanclub_v1.PresidentProfileUIController">
+   <children>
+      <BorderPane fx:id="BorberPaneProfile" prefHeight="557.0" prefWidth="550.0">
+         <top>
+            <ImageView fx:id="PresidentImage" fitHeight="175.0" fitWidth="471.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+               <image>
+                  <Image url="@../images/download%20(1).jpg" />
+               </image>
+            </ImageView>
+         </top>
+         <bottom>
+            <TextArea fx:id="PresidentText" prefHeight="200.0" prefWidth="200.0" text="&#10;&#10;Captain Saifur Rahman (Retd.), managing director of NetWorld Group, &#10;has been elected president of Gulshan Club Limited for the year 2019-20. &#10;He was elected unopposed in the 41st annual general meeting of the club." BorderPane.alignment="CENTER">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </TextArea>
+         </bottom>
+         <center>
+            <Button fx:id="UpdateProfile" mnemonicParsing="false" prefHeight="49.0" prefWidth="249.0" text="Update" BorderPane.alignment="CENTER" />
+         </center>
+      </BorderPane>
+   </children>
+</VBox>

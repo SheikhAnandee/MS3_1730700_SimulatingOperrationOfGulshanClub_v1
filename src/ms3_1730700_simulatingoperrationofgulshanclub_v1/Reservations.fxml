@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<VBox fx:id="reservationsVbox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="557.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ms3_1730700_simulatingoperrationofgulshanclub_v1.ReservationsController">
+   <children>
+      <Pane fx:id="reservationPane" prefHeight="557.0" prefWidth="550.0">
+         <children>
+            <ComboBox fx:id="RestuarantCombo" layoutX="183.0" layoutY="109.0" prefWidth="150.0" />
+            <Label layoutX="87.0" layoutY="164.0" text="Name" />
+            <Label layoutX="86.0" layoutY="215.0" text="Phone" />
+            <Label layoutX="72.0" layoutY="113.0" text="Choose Restuarant" />
+            <Text layoutX="183.0" layoutY="266.0" strokeType="OUTSIDE" strokeWidth="0.0" />
+            <ComboBox fx:id="TableSizeCombo" layoutX="233.0" layoutY="288.0" prefHeight="25.0" prefWidth="49.0" />
+            <DatePicker fx:id="DayPicker" layoutX="183.0" layoutY="324.0" />
+            <CheckBox fx:id="CheckBoxCombo" layoutX="169.0" layoutY="428.0" mnemonicParsing="false" text="I agree to the terms and policy" />
+            <ComboBox fx:id="TimeCombo" layoutX="233.0" layoutY="374.0" prefHeight="25.0" prefWidth="50.0" />
+            <Label layoutX="66.0" layoutY="253.0" text="Email Address" />
+            <Label layoutX="68.0" layoutY="328.0" text="Chosse a Day" />
+            <Label layoutX="69.0" layoutY="292.0" text="Choose Table Size " />
+            <Label layoutX="72.0" layoutY="378.0" text="Choose Time" />
+            <Button fx:id="SubmitButton" layoutX="235.0" layoutY="478.0" mnemonicParsing="false" onAction="#SubmitBtnClicked" text="Submit" />
+            <TextField layoutX="186.0" layoutY="164.0" />
+            <TextField layoutX="186.0" layoutY="211.0" />
+            <TextField layoutX="186.0" layoutY="249.0" />
+            <Label layoutX="199.0" layoutY="14.0" prefHeight="67.0" prefWidth="149.0" text="       Reservation">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</VBox>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="ApplyforMembershipVbox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="557.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ms3_1730700_simulatingoperrationofgulshanclub_v1.ApplyForMembershipController">
+   <children>
+      <Pane fx:id="ApplyforMembershipPane" prefHeight="557.0" prefWidth="550.0">
+         <children>
+            <Label layoutX="195.0" layoutY="22.0" text="Apply For Membership">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Hyperlink layoutX="141.0" layoutY="49.0" text="To apply for membership please complete all questions" />
+            <TextField layoutX="201.0" layoutY="116.0" />
+            <TextField layoutX="201.0" layoutY="155.0" />
+            <TextField layoutX="201.0" layoutY="196.0" />
+            <RadioButton fx:id="MaleButton" layoutX="158.0" layoutY="239.0" mnemonicParsing="false" text="Male" />
+            <RadioButton fx:id="Femalebutton" layoutX="263.0" layoutY="239.0" mnemonicParsing="false" text="Female" />
+            <RadioButton fx:id="Other" layoutX="398.0" layoutY="239.0" mnemonicParsing="false" text="Other" />
+            <ComboBox fx:id="MembershipType" layoutX="200.0" layoutY="440.0" prefWidth="150.0" />
+            <TextField layoutX="201.0" layoutY="296.0" />
+            <Button fx:id="SubmitButton" layoutX="236.0" layoutY="509.0" mnemonicParsing="false" onAction="#SubmitBtnClicked" text="Submit" />
+            <Label layoutX="96.0" layoutY="120.0" text="Name" />
+            <Label layoutX="96.0" layoutY="159.0" prefHeight="17.0" prefWidth="87.0" text="Email Address:" />
+            <Label layoutX="96.0" layoutY="200.0" text="Contact Number" />
+            <Label layoutX="39.0" layoutY="444.0" text="Choose Membership Type: " />
+            <Label layoutX="98.0" layoutY="239.0" text="Gender" />
+            <Label layoutX="103.0" layoutY="300.0" text="Address" />
+            <Label layoutX="103.0" layoutY="343.0" text="Why you want to join Gulshan Club? write the comment below" />
+            <TextArea fx:id="TextToApply" layoutX="97.0" layoutY="369.0" prefHeight="44.0" prefWidth="356.0" />
+            <CheckBox fx:id="Checkbox" layoutX="198.0" layoutY="479.0" mnemonicParsing="false" text="I agree to the terms and policy" />
+         </children>
+      </Pane>
+   </children>
+</VBox>

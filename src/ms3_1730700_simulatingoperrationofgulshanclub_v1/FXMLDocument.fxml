@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #85867d;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ms3_1730700_simulatingoperrationofgulshanclub_v1.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <AnchorPane layoutX="363.0" prefHeight="402.0" prefWidth="340.0" style="-fx-background-color: #dad5d5;">
+         <children>
+            <TextField fx:id="UserID" layoutX="121.0" layoutY="82.0" prefHeight="27.0" prefWidth="174.0" promptText="User ID">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="13.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="Password" layoutX="121.0" layoutY="122.0" prefHeight="27.0" prefWidth="174.0" promptText="Password">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="13.0" />
+               </font>
+            </PasswordField>
+            <Button fx:id="Login" layoutX="126.0" layoutY="231.0" mnemonicParsing="false" onAction="#loginBtnActionPerformed" prefHeight="25.0" prefWidth="46.0" text="Login" textFill="#212218" />
+            <Label layoutX="10.0" layoutY="82.0" prefHeight="27.0" prefWidth="105.0" text="User ID:">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="10.0" layoutY="122.0" prefHeight="27.0" prefWidth="105.0" text="Password:">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="13.0" />
+               </font>
+            </Label>
+            <Hyperlink layoutX="121.0" layoutY="149.0" onAction="#forgetBtnActionPerformed" text="forgot  Email or Password ?" textFill="#2e2c2a">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Hyperlink>
+            <Hyperlink layoutX="126.0" layoutY="256.0" onAction="#signupBtnClicked" prefHeight="25.0" prefWidth="192.0" text="Don't have an account? Signup" textFill="#2e2c2a">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Hyperlink>
+            <ComboBox fx:id="UserType" layoutX="125.0" layoutY="171.0" prefHeight="25.0" prefWidth="168.0" />
+            <Label fx:id="User" layoutX="10.0" layoutY="170.0" prefHeight="27.0" prefWidth="88.0" text="User Type:">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="13.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <ImageView fx:id="Image" fitHeight="324.0" fitWidth="267.0" layoutX="43.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/logo.png" />
+         </image>
+      </ImageView>
+      <ButtonBar prefHeight="40.0" prefWidth="200.0" />
+    </children>
+</AnchorPane>

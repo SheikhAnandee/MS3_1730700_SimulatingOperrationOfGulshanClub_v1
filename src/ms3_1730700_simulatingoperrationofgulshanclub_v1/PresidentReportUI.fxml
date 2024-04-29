@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="557.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ms3_1730700_simulatingoperrationofgulshanclub_v1.PresidentReportUIController">
+   <children>
+      <BorderPane fx:id="reportBorderPane" prefHeight="557.0" prefWidth="550.0">
+         <top>
+            <Pane prefHeight="79.0" prefWidth="550.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label layoutX="57.0" layoutY="34.0" prefHeight="17.0" prefWidth="51.0" text="Type:" />
+                  <ComboBox fx:id="typeComboBox" layoutX="110.0" layoutY="30.0" prefHeight="25.0" prefWidth="258.0" promptText="Select" />
+                  <Button fx:id="generateBtn" layoutX="398.0" layoutY="30.0" mnemonicParsing="false" onAction="#onClickGenerate" prefHeight="25.0" prefWidth="95.0" text="Generate" />
+               </children>
+            </Pane>
+         </top>
+         <bottom>
+            <Pane prefHeight="134.0" prefWidth="550.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button layoutX="108.0" layoutY="55.0" mnemonicParsing="false" onAction="#onClickPrint" prefHeight="25.0" prefWidth="368.0" text="Print" />
+               </children>
+            </Pane>
+         </bottom>
+         <center>
+            <Pane fx:id="paneView" prefHeight="344.0" prefWidth="517.0" BorderPane.alignment="CENTER" />
+         </center>
+      </BorderPane>
+   </children>
+</HBox>

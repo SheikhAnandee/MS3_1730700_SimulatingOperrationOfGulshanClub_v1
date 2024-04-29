@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="EventVbox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="557.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ms3_1730700_simulatingoperrationofgulshanclub_v1.EventsController">
+   <children>
+      <Pane fx:id="EventPane" prefHeight="571.0" prefWidth="550.0" style="-fx-background-color: #2d3436;">
+         <children>
+            <ImageView fx:id="Event1Image" fitHeight="126.0" fitWidth="200.0" layoutX="46.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/hjtj.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="Event3Image" fitHeight="150.0" fitWidth="200.0" layoutX="39.0" layoutY="299.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/4%20(1).jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="Event2Image" fitHeight="150.0" fitWidth="200.0" layoutX="300.0" layoutY="81.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/download%20(2).jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="event4Image" fitHeight="150.0" fitWidth="200.0" layoutX="314.0" layoutY="299.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/kqqvhc-1543936419060.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="109.0" layoutY="254.0" text="Musical Night" textFill="#fffdfe">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="368.0" layoutY="262.0" text="Art Exibition" textFill="#fffdfe">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="112.0" layoutY="450.0" text="Pitha Utshob" textFill="#fffdfe">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="374.0" layoutY="450.0" text="TennisTournament" textFill="#fffdfe">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Button fx:id="JoinButton" layoutX="264.0" layoutY="484.0" mnemonicParsing="false" text="Join" />
+            <Label layoutX="232.0" layoutY="35.0" text="Events" textFill="#fbff08">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</VBox>

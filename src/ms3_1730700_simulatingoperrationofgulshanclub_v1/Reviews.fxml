@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="Vbox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="557.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ms3_1730700_simulatingoperrationofgulshanclub_v1.ReviewsController">
+   <children>
+      <Pane prefHeight="557.0" prefWidth="550.0">
+         <children>
+            <Label layoutX="247.0" layoutY="32.0" text="Reviews">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <TextArea fx:id="ReadReview" layoutX="107.0" layoutY="136.0" prefHeight="131.0" prefWidth="365.0" text="Great staff , great music, amazing view, &#10;the food is perfect, the entire staff was very friendly during&#10; my visit,I loved the place!&#10;&#10;fantastic atmosphere  great staff the only place in &#10;Dhaka to relax with a drink and exquisite food a &#10;must when you are visiting Dhaka" />
+            <TextArea fx:id="WriteReview" layoutX="100.0" layoutY="328.0" prefHeight="131.0" prefWidth="365.0" />
+            <Label layoutX="65.0" layoutY="102.0" text="Customer Reviews: ">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label layoutX="86.0" layoutY="290.0" text="Write a Review:">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="Savebutton" layoutX="257.0" layoutY="493.0" mnemonicParsing="false" text="Save" />
+         </children>
+      </Pane>
+   </children>
+</VBox>

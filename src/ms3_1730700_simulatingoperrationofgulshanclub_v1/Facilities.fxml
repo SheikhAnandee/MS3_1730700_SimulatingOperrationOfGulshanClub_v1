@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="FacilitiesVbox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="557.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ms3_1730700_simulatingoperrationofgulshanclub_v1.FacilitiesController">
+   <children>
+      <Pane fx:id="FacilitiesPane" prefHeight="557.0" prefWidth="550.0">
+         <children>
+            <ImageView fx:id="Image2" fitHeight="150.0" fitWidth="200.0" layoutX="145.0" layoutY="155.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/12074862_1646118912304746_5570363441983010816_n.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="331.0" layoutY="370.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="Image3" fitHeight="150.0" fitWidth="200.0" layoutX="349.0" layoutY="155.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/squash.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="Image4" fitHeight="150.0" fitWidth="200.0" layoutX="-5.0" layoutY="351.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/images%20(3).jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="Image1" fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="155.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/download%20(5).jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="Image5" fitHeight="150.0" fitWidth="200.0" layoutX="145.0" layoutY="351.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/restuanant.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="Image6" fitHeight="150.0" fitWidth="200.0" layoutX="352.0" layoutY="351.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/library.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="56.0" layoutY="322.0" text="Tennis">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="56.0" layoutY="520.0" text="Swimming Pool">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="238.0" layoutY="305.0" text="Gym">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="428.0" layoutY="305.0" text="Squash">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="428.0" layoutY="520.0" text="Library">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="217.0" layoutY="520.0" text="Restuarant">
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="225.0" layoutY="14.0" text="Facilities">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Label layoutX="91.0" layoutY="82.0" text="Choose Facility :">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="FacilitiesCombobox" layoutX="195.0" layoutY="79.0" prefWidth="150.0" />
+            <Button fx:id="ReadButton" layoutX="238.0" layoutY="117.0" mnemonicParsing="false" text="Read more" />
+         </children>
+      </Pane>
+   </children>
+</VBox>

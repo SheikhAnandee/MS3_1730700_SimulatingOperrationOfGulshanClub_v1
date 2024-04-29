@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox fx:id="Vbox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="557.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ms3_1730700_simulatingoperrationofgulshanclub_v1.SubscriptionController">
+   <children>
+      <Pane fx:id="pane" prefHeight="557.0" prefWidth="550.0">
+         <children>
+            <Button fx:id="Subscription" layoutX="215.0" layoutY="403.0" mnemonicParsing="false" onAction="#SubscriptionBtnClicked" text="Subscription Details" />
+         </children>
+      </Pane>
+   </children>
+</VBox>

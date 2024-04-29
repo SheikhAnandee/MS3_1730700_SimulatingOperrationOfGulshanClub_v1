@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="557.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ms3_1730700_simulatingoperrationofgulshanclub_v1.LeaveApplicationController">
+   <children>
+      <Pane prefHeight="557.0" prefWidth="550.0">
+         <children>
+            <Label layoutX="209.0" layoutY="37.0" text="Apply for Leave">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="48.0" layoutY="116.0" prefHeight="19.0" prefWidth="94.0" text="Leave duration:">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="51.0" layoutY="179.0" prefHeight="17.0" prefWidth="70.0" text="From Date: " />
+            <Label layoutX="67.0" layoutY="224.0" text="Leave Type:" />
+            <Button layoutX="261.0" layoutY="475.0" mnemonicParsing="false" text="Sumit" />
+            <RadioButton fx:id="SigleDayButton" layoutX="174.0" layoutY="117.0" mnemonicParsing="false" text="Single Day" />
+            <RadioButton fx:id="HalfDaybutton" layoutX="306.0" layoutY="117.0" mnemonicParsing="false" text="Half Day" />
+            <RadioButton fx:id="MultipleButton" layoutX="424.0" layoutY="117.0" mnemonicParsing="false" text="Multiple Days" />
+            <TextArea fx:id="Reason" layoutX="149.0" layoutY="286.0" prefHeight="130.0" prefWidth="200.0" />
+            <ComboBox fx:id="LeaveTypeButton" layoutX="162.0" layoutY="220.0" prefWidth="150.0" />
+            <TextField layoutX="119.0" layoutY="175.0" prefHeight="25.0" prefWidth="87.0" />
+            <TextField layoutX="287.0" layoutY="175.0" prefHeight="25.0" prefWidth="94.0" />
+            <Label layoutX="67.0" layoutY="286.0" text="Reason" />
+            <Label layoutX="235.0" layoutY="179.0" prefHeight="17.0" prefWidth="52.0" text="to Date:" />
+            <Label layoutX="416.0" layoutY="179.0" text="Total Day:" />
+            <TextField layoutX="477.0" layoutY="175.0" prefHeight="25.0" prefWidth="52.0" />
+         </children>
+      </Pane>
+   </children>
+</VBox>

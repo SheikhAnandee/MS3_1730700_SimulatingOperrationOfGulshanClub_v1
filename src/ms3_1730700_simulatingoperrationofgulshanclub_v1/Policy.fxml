@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="557.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ms3_1730700_simulatingoperrationofgulshanclub_v1.PolicyController">
+   <children>
+      <Pane prefHeight="145.0" prefWidth="550.0">
+         <children>
+            <ComboBox fx:id="PolicyCombo" layoutX="97.0" layoutY="83.0" prefWidth="150.0" />
+            <Button fx:id="ViewPolicy" layoutX="301.0" layoutY="83.0" mnemonicParsing="false" text="View" />
+            <Button fx:id="ChangePolicy" layoutX="414.0" layoutY="83.0" mnemonicParsing="false" text="Change" />
+            <Label layoutX="22.0" layoutY="87.0" text="User Type">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="208.0" layoutY="21.0" text="Terms and Policy">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <TextArea fx:id="Policy" prefHeight="371.0" prefWidth="550.0" text="                                                                Policy&#10;Your privacy is very important to us. Accordingly, we have developed this Policy in order for you &#10;to understand how we collect, use, communicate and disclose and make use of personal information.&#10; The following outlines our privacy policy.&#10;Before or at the time of collecting personal information, we will identify the purposes for which&#10; information isbeing collected.We will collect and use of personal information solely with the&#10; objective of fulfilling those purposes specifiedby us and for other compatible purposes, unless &#10;we obtain the consent of the individual concerned or as required by law.&#10;We will only retain personal information as long as necessary for the fulfillment of those purposes.&#10;We will collect personal information by lawful and fair means and, where appropriate, with the&#10; knowledgeor consent of the individual concerned.Personal data should be relevant to the &#10;purposes for which it is to be used, and, to the extent necessary for those purposes, should be &#10;accurate, complete, and up-to-date.&#10;                                                                 Terms&#10;Not allowed in the Club premises&#10;1.    Trouser with Panjabi.&#10;2.    Pajama with full or half shirt.&#10;3.    Strapless sandal even with Pajama &amp; Panjabi.&#10;4.    Shalwar with long shirt.&#10;5.    Dhuti, Lungi and Jubba.&#10;Not allowed to enter inside the building&#10;1.   Wearing sports dress, track suits.&#10;2.   Half pants/ Shorts.&#10;3.   Sleeveless, collarless and round neck T-shirts.&#10;4.   Keds, Sneakers and other casual dresses like Baseball Cap, wearing ear ring.&#10;The above dress code is only applicable for the male members, male guests and male children&#10; above 12 years.&#10;" />
+   </children>
+</VBox>

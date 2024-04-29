@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ms3_1730700_simulatingoperrationofgulshanclub_v1.GalleryController">
+   <children>
+      <Pane fx:id="GalleryPane" prefHeight="400.0" prefWidth="694.0" style="-fx-background-color: #2d3436;">
+         <children>
+            <ImageView fx:id="GalleryImage1" fitHeight="156.0" fitWidth="175.0" layoutX="7.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/7197_gulshan-club.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="GalleryImage4" fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="236.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/images.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="GalleryImage6" fitHeight="150.0" fitWidth="200.0" layoutX="386.0" layoutY="236.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/Billiards.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="GalleryImage5" fitHeight="150.0" fitWidth="200.0" layoutX="244.0" layoutY="236.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/75241059_1363890330459416_6309261207832363008_n.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="GalleryImage2" fitHeight="150.0" fitWidth="200.0" layoutX="195.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/library.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="GalleryImage3" fitHeight="150.0" fitWidth="200.0" layoutX="394.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/12074862_1646118912304746_5570363441983010816_n.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="166.0" layoutY="12.0" prefHeight="53.0" prefWidth="251.0" text="            Gallery" textFill="#f5d907">
+               <font>
+                  <Font name="System Bold Italic" size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</HBox>

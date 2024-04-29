@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="750.0" style="-fx-background-color: #7f8fa6;" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ms3_1730700_simulatingoperrationofgulshanclub_v1.PresidentController">
+    <stylesheets>
+        <URL value="@president.css" />
+    </stylesheets>
+   <children>
+      <BorderPane fx:id="borderpane" prefHeight="600.0" prefWidth="750.0">
+         <left>
+            <VBox fx:id="Vbox" prefHeight="600.0" prefWidth="200.0" style="-fx-background-color: #dfe6e9;" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="Gallery" mnemonicParsing="false" onAction="#GalleryBtnClicked" prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: #353b48; -fx-background-radius: 0;" text="Gallery" textFill="#f5f6fa">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="Profile" mnemonicParsing="false" onAction="#profileBtnClicked" prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: #353b48; -fx-background-radius: 0;" text="Profile" textFill="#f5f6fa">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="Notice" mnemonicParsing="false" onAction="#noticeBtnClicked" prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: #353b48; -fx-background-radius: 0;" text="Notice" textFill="#f5f6fa">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="Contact" mnemonicParsing="false" onAction="#ContactBtnClicked" prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: #353b48; -fx-background-radius: 0;" text="Contact" textFill="#f5f6fa">
+                     <font>
+                        <Font name="Arial Rounded MT Bold" size="12.0" />
+                     </font></Button>
+                  <Button fx:id="ScheduleMeeting" mnemonicParsing="false" onAction="#sceduleMeetingBtnClicked" prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: #353b48; -fx-background-radius: 0;" text="Schedule Meeting" textFill="#f5f6fa" />
+                  <Button fx:id="Policy" mnemonicParsing="false" onAction="#policyBtnClicked" prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: #353b48; -fx-background-radius: 0;" text="policy" textFill="#f5f6fa" />
+                  <Button fx:id="Reports" mnemonicParsing="false" onAction="#reportBtnClicked" prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: #353b48; -fx-background-radius: 0;" text="Reports" textFill="#f5f6fa" />
+                  <Button fx:id="Event" mnemonicParsing="false" onAction="#EventBtnClicked" prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: #353b48; -fx-background-radius: 0;" text="Event" textFill="#f5f6fa" />
+                  <Button fx:id="Facilities" mnemonicParsing="false" onAction="#FacilitiesBtnClicked" prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: #353b48; -fx-background-radius: 0;" text="Falicities" textFill="#f5f6fa" />
+                  <Button fx:id="Reservations" mnemonicParsing="false" onAction="#ReservationBtnClicked" prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: #353b48; -fx-background-radius: 0;" text="Reservations" textFill="#f5f6fa" />
+                  <Button fx:id="AssignTask" mnemonicParsing="false" onAction="#AssignBtnClicked" prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: #353b48; -fx-background-radius: 0;" text="Assign Task" textFill="#f5f6fa" />
+                  <Button fx:id="Reviews" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: #353b48; -fx-background-radius: 0;" text="Reviews" textFill="#f5f6fa" />
+                  <Button fx:id="BookVenue" mnemonicParsing="false" onAction="#BookVenueBtnClicked" prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: #353b48; -fx-background-radius: 0;" text="Book Venue" textFill="#f5f6fa" />
+               </children>
+            </VBox>
+         </left>
+         <top>
+            <HBox prefHeight="33.0" prefWidth="750.0" style="-fx-background-color: white;" BorderPane.alignment="CENTER">
+               <children>
+                  <Pane fx:id="MenuPane" prefHeight="33.0" prefWidth="750.0">
+                     <children>
+                        <MenuBar fx:id="Logout" layoutX="675.0" prefHeight="32.0" prefWidth="70.0">
+                          <menus>
+                            <Menu fx:id="logoutBtn" mnemonicParsing="false" onAction="#LogoutBtnClicked" text="Logout" />
+                          </menus>
+                        </MenuBar>
+                     </children>
+                  </Pane>
+               </children></HBox>
+         </top>
+      </BorderPane>
+   </children>
+</AnchorPane>

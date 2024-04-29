@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="vbox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="557.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ms3_1730700_simulatingoperrationofgulshanclub_v1.AnnualReportController">
+   <children>
+      <Pane fx:id="pane" prefHeight="557.0" prefWidth="550.0">
+         <children>
+            <TextArea fx:id="TextArea" layoutX="175.0" layoutY="79.0" onDragDetected="#TextAreaBtnClicked" prefHeight="200.0" prefWidth="200.0" />
+            <Button fx:id="view" layoutX="249.0" layoutY="327.0" mnemonicParsing="false" onAction="#viewbtnclicked" text="View" />
+            <Button fx:id="attachfile" layoutX="249.0" layoutY="384.0" mnemonicParsing="false" onAction="#AttachBtnClicked" text="Attach file" />
+            <Button fx:id="download" layoutX="249.0" layoutY="447.0" mnemonicParsing="false" onAction="#DownloadBtnClicked" text="Download" />
+         </children>
+      </Pane>
+   </children>
+</VBox>

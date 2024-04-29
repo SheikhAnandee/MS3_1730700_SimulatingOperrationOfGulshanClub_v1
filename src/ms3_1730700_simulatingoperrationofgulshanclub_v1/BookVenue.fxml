@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="BookVenueVbox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="557.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ms3_1730700_simulatingoperrationofgulshanclub_v1.BookVenueController">
+   <children>
+      <Pane fx:id="BookVenuePane" prefHeight="557.0" prefWidth="550.0">
+         <children>
+            <Label layoutX="194.0" layoutY="28.0" text="Book Venue">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <TextField layoutX="224.0" layoutY="95.0" />
+            <TextField layoutX="86.0" layoutY="134.0" />
+            <TextField layoutX="363.0" layoutY="134.0" />
+            <TextArea fx:id="DetailsText" layoutX="241.0" layoutY="332.0" prefHeight="103.0" prefWidth="228.0" />
+            <TextField layoutX="147.0" layoutY="211.0" />
+            <DatePicker layoutX="363.0" layoutY="211.0" />
+            <CheckBox fx:id="Checkbox" layoutX="185.0" layoutY="454.0" mnemonicParsing="false" text="I agree to the terms and policy" />
+            <Button fx:id="submitButton" layoutX="250.0" layoutY="493.0" mnemonicParsing="false" onAction="#SubmitBtnClicked" text="Submit" />
+            <ComboBox fx:id="VenueList" layoutX="183.0" layoutY="287.0" prefWidth="150.0" />
+            <Label layoutX="14.0" layoutY="291.0" text="Choose Venue from the list" />
+            <Label layoutX="322.0" layoutY="215.0" text="Date" />
+            <Label layoutX="14.0" layoutY="215.0" text="Total Number of Guest" />
+            <Label layoutX="7.0" layoutY="138.0" text="Email Address" />
+            <Label layoutX="267.0" layoutY="138.0" text="Contact Number" />
+            <Label layoutX="159.0" layoutY="99.0" text="Name" />
+            <Label layoutX="44.0" layoutY="332.0" text="Write details about your event" />
+         </children>
+      </Pane>
+   </children>
+</VBox>

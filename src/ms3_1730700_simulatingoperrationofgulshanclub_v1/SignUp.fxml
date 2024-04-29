@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="574.0" prefWidth="644.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ms3_1730700_simulatingoperrationofgulshanclub_v1.SignUpController">
+   <children>
+      <Label layoutX="270.0" layoutY="29.0" prefHeight="42.0" prefWidth="69.0" text="Sign Up">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="259.0" layoutY="79.0" prefHeight="27.0" prefWidth="92.0" text="Welcome!">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="238.0" layoutY="106.0" prefHeight="27.0" prefWidth="133.0" text="Register for an account">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="162.0" layoutY="193.0" prefHeight="42.0" prefWidth="99.0" text="Email Address:">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="emailField" layoutX="309.0" layoutY="202.0" />
+      <Label layoutX="164.0" layoutY="328.0" prefHeight="19.0" prefWidth="69.0" text="User Type:">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="typeField" layoutX="311.0" layoutY="325.0" prefWidth="150.0" />
+      <Button fx:id="Resister" layoutX="211.0" layoutY="454.0" mnemonicParsing="false" onAction="#registerBtnClicked" prefHeight="42.0" prefWidth="199.0" text="Register">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="162.0" layoutY="151.0" prefHeight="42.0" prefWidth="99.0" text="Name:">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nameField" layoutX="309.0" layoutY="160.0" />
+      <Label layoutX="162.0" layoutY="235.0" prefHeight="42.0" prefWidth="99.0" text="Gender:">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <RadioButton fx:id="maleField" layoutX="309.0" layoutY="248.0" mnemonicParsing="false" onAction="#maleBtnClicked" text="Male" />
+      <RadioButton fx:id="femaleField" layoutX="384.0" layoutY="248.0" mnemonicParsing="false" onAction="#femaleBtnClicked" text="Female" />
+      <RadioButton fx:id="othersField" layoutX="466.0" layoutY="248.0" mnemonicParsing="false" onAction="#otherBtnClicked" text="Others" />
+      <Label layoutX="165.0" layoutY="275.0" prefHeight="42.0" prefWidth="99.0" text="Date of Birth:">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <DatePicker fx:id="dobField" layoutX="310.0" layoutY="284.0" />
+      <Label layoutX="165.0" layoutY="358.0" prefHeight="42.0" prefWidth="99.0" text="Password:">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="passField" layoutX="312.0" layoutY="367.0" />
+      <Label layoutX="165.0" layoutY="400.0" prefHeight="42.0" prefWidth="118.0" text="Confirm Password:">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <PasswordField fx:id="cpassField" layoutX="312.0" layoutY="409.0" />
+      <Hyperlink layoutX="222.0" layoutY="510.0" onAction="#loginBtnClicked" prefHeight="23.0" prefWidth="183.0" text="Do you have an account? Login." />
+   </children>
+</AnchorPane>
